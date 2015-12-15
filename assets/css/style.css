@@ -1,0 +1,141 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+.navbar {
+    border-radius: 0 !important;
+}
+
+
+body#login {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #1F87C2;
+  color: #fff;
+}
+body#login h2 {
+    color: #fff;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.actions {
+  float: right;
+  margin-top: 20px;
+}
+
+table.tablesorter th {
+    cursor: pointer;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 20px;
+    height: 60px;
+    text-align: center;
+    background: #1F87C2;
+    color: #fff;
+}
+
+.clear {
+  clear: both;
+}
+
+
+#images {
+  display: none;
+}
+
+#image-list {
+  border: 1px solid #ccc;
+  background: #EDEDEDc;
+  overflow: hidden;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+ul.files {
+  margin-top: 10px;
+}
+
+ul.files li {
+  list-style: none;
+  float: left;
+  margin-right: 15px;
+  padding: 5px;
+  width: 80px;
+  height:90px;
+}
+
+li.files {
+  margin-top: 40px;
+}
+
+li.folder {
+  width: 80px;
+}
+
+li.folder img {
+  float: left;
+}
+
+
+ul.files li img{
+  float: left;
+  text-align: center;
+  margin: auto;
+}
+
+ul.files li span {
+  display: block;
+  clear: both;
+  text-align: center;
+  cursor: pointer;
+  color: blue;
+}
